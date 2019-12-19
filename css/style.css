@@ -82,6 +82,7 @@ input:focus {
 }
 
 .btn {
+  display: inline-block;
   padding: 5px;
   background-color: #d2d2d2;
   border-radius: 6px;

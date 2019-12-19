@@ -69,10 +69,28 @@ buttonGenera.addEventListener ('click',
 
     var carrozza = Math.floor(Math.random() * 9) + 1;
     var cp = Math.floor(Math.random() * (100000 - 90000 + 1) ) + 90000;
-    document.getElementById('nome_utente').innerHTML = nome;
+    document.getElementById('nome_passeggero').innerHTML = nome;
     document.getElementById('offerta').innerHTML = offerta;
     document.getElementById('costo').innerHTML = calcoloViaggio.toFixed(2);
     document.getElementById('carrozza').innerHTML = carrozza;
     document.getElementById('codice-cp').innerHTML = cp;
   }
 );
+
+var buttonAnnulla = document.getElementById('annulla');
+buttonAnnulla.addEventListener('click',
+  function()  {
+    document.getElementById('nome_passeggero').innerHTML = '';
+    document.getElementById('offerta').innerHTML = '';
+    document.getElementById('costo').innerHTML = '';
+    document.getElementById('carrozza').innerHTML = '';
+    document.getElementById('codice-cp').innerHTML = '';
+
+    document.getElementById('nome_utente').value = '';
+    document.getElementById('km').value = '';
+    document.getElementById('fascia_eta').value = '';
+  }
+
+
+
+)
