@@ -86,7 +86,7 @@ buttonAnnulla.addEventListener('click',
     document.getElementById('carrozza').innerHTML = '';
     document.getElementById('codice-cp').innerHTML = '';
 
-    document.getElementById('nome_utente').value = '';
+    document.getElementById('nome_passeggero').value = '';
     document.getElementById('km').value = '';
     document.getElementById('fascia_eta').value = '';
   }
