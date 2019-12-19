@@ -4,7 +4,14 @@
   padding: 0;
 }
 
+.padding_top_20 {
+  padding-top: 20px;
+}
+
 body {
   font-family: 'Lato', sans-serif;
-  background-color: lime;
+}
+
+h1 {
+  text-align: center;;
 }
